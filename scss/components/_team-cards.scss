@@ -1,0 +1,22 @@
+.team-item__image{
+   width: 450px;
+   height: 460px;
+    margin-bottom: 30px;
+}
+.team-item{
+   &__title{
+   margin-bottom: 10px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+}
+   &__text {
+   margin-bottom: 16px;
+   color: var(--secondaryText-color);
+   font-size: 16px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+}
+
+}

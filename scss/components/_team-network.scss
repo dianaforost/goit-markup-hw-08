@@ -1,0 +1,38 @@
+.team-network__list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.team-network__link{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+        background-color: var(--effect-text-color);
+    }
+    &:not(:last-child){
+        margin-right: 10px;
+    }
+}
+.team-network-icon{
+    fill: var(--icons-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .team-network__link:hover{
+        fill: var(--basic-color);
+    }
+    .team-network__link:focus{
+        fill: var(--basic-color);
+    }
+}
+.team-network__link:hover .team-network-icon{
+    fill: var(--basic-color);
+}
+.team-network__link:focus .team-network-icon{
+    fill: var(--basic-color);
+}

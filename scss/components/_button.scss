@@ -1,0 +1,12 @@
+.btn{
+    background-color: var(--effect-text-color);
+    color: var(--basic-color);
+    &:hover,
+    &:focus{
+        background-color: var(--hover-button);
+    }
+}
+// .btn:hover,
+// .btn:focus{
+//     background-color: var(--hover-button);
+// }

@@ -1,0 +1,38 @@
+body{
+    // height: 200vh;
+    height: 100%;
+    font-family: var(--font-family-rob);
+    background-color: var(--basic-color);
+    color: var(--brand-color);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.section{
+    width: 100%;
+    padding: 60px 0;
+}
+::selection{
+    color: var(--basic-color);
+    background-color: var(--brand-color);
+}
+.section-titles{
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
