@@ -20,7 +20,7 @@
           <a href="./index.html" class="header__logo"
             ><span class="logo__span">Web</span>Studio</a
           >
-          <button class="menu-toggle js-open-menu">
+          <button class="menu-toggle js-open-menu" >
             <svg width="40" height="40">
               <use href="./images/icons.svg#icon-menu_40px"></use>
             </svg>
@@ -406,8 +406,8 @@
                   >
                 </li>
                 <li class="footer__item">
-                  <a href="mailto:info@example.com" class="footer__link"
-                    >info@example.com
+                  <a href="mailto:info@devstudio.com" class="footer__link"
+                    >info@devstudio.com
                   </a>
                 </li>
                 <li class="footer__item">
@@ -474,21 +474,46 @@
     </footer>
 
     <!-- END FOOTER -->
-    <div class="mobile__menu is-hidden">
-      <div class="container">
-        <button class="monile__menu__close-button">
+    <!-- class="mobile__menu is-hidden js-menu-container"  -->
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <div class="menu-container">
+        <!-- <button class="monile__menu__close-button"> -->
+          <button class="menu-button js-close-menu">
           <svg class="close-button__icon" width="40" height="40">
             <use href="./images/icons.svg#icon-close_40px"></use>
           </svg>
         </button>
         <ul class="mobile-menu__navigation">
-          <li class="menu-item">Студія</li>
-          <li class="menu-item">Портфоліо</li>
-          <li class="menu-item">Контакти</li>
+          <li class="menu-navigation__item"> 
+            <a href="./index.html" class="menu-navigation__link menu-navigation__link--active">Студія</a>
+          </li>
+          <li class="menu-navigation__item"> 
+            <a href="./portfolio.html" class="menu-navigation__link">Портфоліо</a>
+          </li>
+          <li class="menu-navigation__item"> 
+            <a href="" class="menu-navigation__link">Контакти</a>
+          </li>
         </ul>
         <ul class="mobile-menu__contacts">
-          <li class="contacts__item"></li>
-          <li class="contacts__item"></li>
+          <li class="menu-contacts__item">
+            <a href="tel:+380991111111" class="menu-contacts__link-tel">+38 099 111 11 11</a>
+          </li>
+          <li class="menu-contacts__item">
+            <a href="mailto:info@devstudio.com" class="menu-contacts__link-email">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu__network">
+          <li class="menu-network__item"> <a href="https://www.instagram.com/" class="menu-network__link">Instagram</a> 
+            <span class="menu-network__span"></span>
+          </li>
+          <li class="menu-network__item"> <a href="https://twitter.com/" class="menu-network__link">Twitter</a> 
+            <span class="menu-network__span"></span>
+          </li>
+          <li class="menu-network__item"> <a href="https://www.facebook.com/" class="menu-network__link">Facebook</a> 
+            <span class="menu-network__span"></span>
+          </li>
+          <li class="menu-network__item"> <a href="https://www.linkedin.com/" class="menu-network__link">Linkedin</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -564,7 +589,7 @@
                 </svg>
               </div>
             </div>
-            <div class="form-box">
+            <div class="form-box" style="margin-bottom: 20px;">
               <label class="form__label" for="comment">Коментар</label>
               <textarea
                 class="form__item"
@@ -596,6 +621,13 @@
         </form>
       </div>
     </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

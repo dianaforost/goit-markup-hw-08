@@ -1,5 +1,8 @@
+// UTILS
 @import './utils/variables';
 @import './utils/base';
+@import './utils/utils';
+// COMPONENTS
 @import './components/benefits-card';
 @import './components/benefits-section';
 @import './components/button';
@@ -12,6 +15,10 @@
 @import './components/footer';
 @import './components/header';
 @import './components/hero-section';
+@import './components/mobile-contacts';
+@import './components/mobile-menu';
+@import './components/mobile-navigation';
+@import './components/mobile-network';
 @import './components/modal-button';
 @import './components/modal-checkbox';
 @import './components/modal-form';
@@ -23,4 +30,3 @@
 @import './components/team-cards';
 @import './components/team-network';
 @import './components/team-section';
-@import './utils/utils';

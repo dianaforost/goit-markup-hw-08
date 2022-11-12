@@ -1,0 +1,32 @@
+.menu-container{
+    padding: 48px 0 48px 40px;
+}
+.mobile-menu__navigation{
+    margin-bottom: 302px;
+    list-style: none;
+}
+.menu-navigation__item{
+    width: 139px;
+    &:nth-child(2){
+        width: 219px;
+    }
+    &:last-child{
+        width: 192px;
+    }
+    &:not(:last-child){
+        margin-bottom: 32px;
+    }
+}
+.menu-navigation__link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+    &:hover,
+    &:focus,
+    &:active{
+        color: var(--effect-text-color);
+    }
+}
