@@ -20,3 +20,20 @@
 }
 
 }
+@media screen and (min-width:768px) {
+   .team__list{
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .team__item{
+      width: 354px;
+   }
+   .team__item:nth-child(2n+1){
+      margin-right: 30px;
+  }
+  .team-item__image{
+   width: 354px;
+   height: 374px;
+    margin-bottom: 30px;
+}
+}
