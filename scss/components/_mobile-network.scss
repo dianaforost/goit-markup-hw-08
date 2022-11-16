@@ -19,10 +19,18 @@
 .menu-network__link{
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.222;
     letter-spacing: 0.02em;
     color: var(--effect-text-color);
+    @media screen and (min-width:350px){
+        font-size: 14px;
+    }
+    @media screen and (min-width:420px){
+        font-size: 18px;
+        line-height: 1.222;
+        letter-spacing: 0.02em;
+    }
 }
 .menu-navigation__link--active{
     color: var(--effect-text-color);

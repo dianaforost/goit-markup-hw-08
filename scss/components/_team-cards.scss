@@ -1,7 +1,13 @@
 .team-item__image{
-   width: 450px;
-   height: 460px;
+   width: auto;
     margin-bottom: 30px;
+}
+@media screen and (min-width:480px){
+   .team-item__image{
+      width: 450px;
+      height: 460px;
+
+   }
 }
 .team-item{
    &__title{
