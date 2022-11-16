@@ -33,9 +33,6 @@
     border-radius: 2px;
     cursor: pointer;
 }
-/* .icon-checkbox-holder{
-    position: relative;
-} */
 .checkbox__input:checked + .icon__checkbox{
     background-color: var(--effect-text-color);
     border: none;
@@ -44,4 +41,14 @@
     text-decoration: underline;
     color: var(--effect-text-color);
     cursor: pointer;
+}
+@media screen and (min-width:1200px){
+    .checkbox__label{
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .checkbox-box{
+        width: 425px;
+        display: block;
+    }
 }

@@ -33,3 +33,17 @@
         margin-right: 30px;
     }
 }
+@media screen and (min-width:1200px){
+    .benefits__item{
+        width: 270px;
+        &:not(:last-child){
+            margin-right: 30px;
+        }
+    }
+    .benefits__item:not(:last-child){
+        margin-bottom: 0;
+    }
+    .benefits{
+        padding: 94px 0;
+    }
+}

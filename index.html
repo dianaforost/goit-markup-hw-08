@@ -143,6 +143,7 @@
           <ul class="product__list">
             <li class="product__item">
               <img
+              srcset="./images/develop.jpg 1x, ./images/develop@2x.jpg 2x"
                 src="./images/develop.jpg"
                 alt="Розробка"
                 width="370"
@@ -152,6 +153,7 @@
             </li>
             <li class="product__item">
               <img
+              srcset="./images/marketing.jpg 1x, ./images/marketing@2x.jpg 2x"
                 src="./images/marketing.jpg"
                 alt="Маркетинг"
                 width="370"
@@ -161,6 +163,7 @@
             </li>
             <li class="product__item">
               <img
+              srcset="./images/design.jpg 1x, ./images/design@2x.jpg 2x"
                 src="./images/design.jpg"
                 alt="Дизайн"
                 width="370"
@@ -182,6 +185,7 @@
               <img
               srcset="./images/team-img-450x460.jpg 1x, ./images/team-img-450x460@2x.jpg 2x, ./images/team-img-354x374.jpg 1x, ./images/team-img-354x374@2x.jpg 2x,
               ./images/team-img-279x260.jpg 1x, ./images/team-img-270x260@2x.jpg 2x"
+              sizes="(min-width:480px) 100vw, (min-width:768px) 50vw, (min-width:1200px) 33vw "
                 src="./images/team-img-450x460.jpg"
                 alt="Працівник"
                 width="270"
@@ -220,8 +224,13 @@
                 </li>
               </ul>
             </li>
+
             <li class="team__item">
               <img
+              srcset="./images/team-img-450x460-sec.jpg 1x,./images/team-img-450x460@2x-sec.jpg 2x, 
+              ./images/team-img-354x374-sec.jpg 1x,./images/team-img-354x374@2x-sec.jpg 2x, 
+              ./images/team-img-270x260-sec.jpg 1x,./images/team-img-270x260@2x-sec.jpg 2x"
+              sizes="(min-width:480px) 100vw, (min-width:768px) 50vw, (min-width:1200px) 33vw"
                 src="./images/second-employee.jpg"
                 alt="Працівник"
                 width="270"
@@ -262,6 +271,12 @@
             </li>
             <li class="team__item">
               <img
+              srcset="./images/team-img-450x460-third.jpg 1x,
+              ./images/team-img-450x460@2x-third.jpg 2x,
+              ./images/team-img-354x374-third.jpg 1x,
+              ./images/team-img-354x374@2x-third.jpg 2x,
+              ./images/team-img-270x260-third.jpg 1x,
+              ./images/team-img-270x260@2x-third.jpg 2x,"
                 src="./images/third-employee.jpg"
                 alt="Працівник"
                 width="270"
@@ -302,6 +317,12 @@
             </li>
             <li class="team__item">
               <img
+              srcset="./images/team-img-450x460-fourth.jpg 1x,
+              ./images/team-img-450x460@2x-fourth.jpg 2x,
+              ./images/team-img-354x374-fourth.jpg 1x,
+              ./images/team-img-354x374@2x-fourth.jpg 2x,
+              ./images/team-img-270x260-fourth.jpg 1x,
+              ./images/team-img-270x260@2x-fourth.jpg 2x"
                 src="./images/fourth-employee.jpg"
                 alt="Працівник"
                 width="270"
@@ -472,17 +493,18 @@
         </div>
       </div>
     </footer>
+    <!-- <button class="monile__menu__close-button"> -->
 
     <!-- END FOOTER -->
     <!-- class="mobile__menu is-hidden js-menu-container"  -->
     <div class="mobile-menu js-menu-container" id="mobile-menu">
       <div class="menu-container">
-        <!-- <button class="monile__menu__close-button"> -->
           <button class="menu-button js-close-menu">
           <svg class="close-button__icon" width="40" height="40">
             <use href="./images/icons.svg#icon-close_40px"></use>
           </svg>
         </button>
+        <nav class="monile-menu__nav">
         <ul class="mobile-menu__navigation">
           <li class="menu-navigation__item"> 
             <a href="./index.html" class="menu-navigation__link menu-navigation__link--active">Студія</a>
@@ -494,6 +516,7 @@
             <a href="" class="menu-navigation__link">Контакти</a>
           </li>
         </ul>
+      </nav>
         <ul class="mobile-menu__contacts">
           <li class="menu-contacts__item">
             <a href="tel:+380991111111" class="menu-contacts__link-tel">+38 099 111 11 11</a>

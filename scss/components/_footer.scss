@@ -4,3 +4,8 @@
     background-color: var(--background-color);
     text-align: center;
 }
+@media screen and (min-width:1200px) {
+    .footer{
+        text-align: start;
+    }
+}

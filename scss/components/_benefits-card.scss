@@ -20,17 +20,26 @@
 }
 .benefits-item__text{
     // width: 270px;
+    height: 50px;
     width: 100%;
     font-size: 14px;
     color: var(--secondaryText-color);
-    line-height: 1.5;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
 }
 @media screen and (min-width:768px) {
+    .benefits-item__text{
+        height: 48px;
+    }
     .benefits-item__title{
         text-align: start;
     }
 }
-
+@media screen and (min-width:1200px){
+    .benefits-item__text{
+        height: auto;
+    }
+}
 // .content__item{
 //     width: 100%;
 //     // max-width: 270px;

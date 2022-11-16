@@ -1,14 +1,44 @@
-.buttons__list{
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media screen and (min-width:480px){
+    .buttons__list{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: space-between;
+        gap: 8px;
+        width: 326px;
+        height: 91px;
+        margin-bottom: 40px;
+    }
 }
+@media screen and (min-width:768px) {
+    .buttons__list{
+        width: auto;
+        height: auto;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .buttons__list{
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+// .buttons__list{
+//     margin-bottom: 50px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
 .buttons__item{
     list-style: none;
-    &:not(:last-child){
-        margin-right: 8px;
-    }
+    // &:not(:last-child){
+    //     margin-right: 8px;
+    // }
 }
 // .buttons__item:not(:last-child){
 //     margin-right: 8px;

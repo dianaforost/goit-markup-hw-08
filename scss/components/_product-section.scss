@@ -13,9 +13,6 @@
         margin-right: 30px;
     }
 }
-// .holder__item:not(:last-child){
-//     margin-right: 30px;
-// }
 .product__text{
     padding: 27px 0;
     width: 100%;
@@ -32,5 +29,10 @@
     left: 0;
 }
 @media screen and (min-width:1200px) {
-    
+    .product{
+        display: block;
+    }
 }
+    // .holder__item:not(:last-child){
+    //     margin-right: 30px;
+    // }

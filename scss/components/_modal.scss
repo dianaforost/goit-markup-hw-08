@@ -72,3 +72,11 @@
     letter-spacing: 0.03em;
     color: var(--brand-color);
 }
+@media screen and (min-width:1200px){
+    .modal{
+        width: 528px;
+    }
+    .form__title{
+        line-height: 1.15;
+    }
+}

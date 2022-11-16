@@ -30,9 +30,16 @@ img{
     background-color: var(--brand-color);
 }
 .section-titles{
-    margin-bottom: 50px;
-    font-size: 36px;
-    line-height: 1.166;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.1785;
     text-align: center;
     letter-spacing: 0.03em;
+}
+@media screen and (min-width:1200px){
+    .section-titles{
+        font-size: 36px;
+        line-height: 1.166;
+        margin-bottom: 50px;
+    }
 }

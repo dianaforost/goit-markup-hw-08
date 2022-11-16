@@ -2,7 +2,9 @@
     // margin-top: 12px;
     // margin-right: 93px;
     margin-bottom: 60px;
+    height: 80px;
 }
+
 .footer-network__title{
     margin-bottom: 20px;
     font-size: 14px;
@@ -31,13 +33,20 @@
         background-color: var(--effect-text-color);
     }
 }
-// .footer-network__link:hover,
-// .footer-network__link:focus{
-//     background-color: var(--effect-text-color);
-// }
 .footer-network__item:not(:last-child){
     margin-right: 10px;
 }
 .footer-network__icon{
     fill: var(--basic-color);
 }
+@media screen and (min-width:1200px){
+    .network-container{
+        margin-right: 93px;
+        margin-bottom: 0;
+        height: 80px;
+    }
+}
+// .footer-network__link:hover,
+// .footer-network__link:focus{
+//     background-color: var(--effect-text-color);
+// }
