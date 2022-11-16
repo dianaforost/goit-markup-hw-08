@@ -1,6 +1,8 @@
-// .mobile-menu__contacts{
-
-// }
+.mobile-menu__contacts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
 .menu-contacts__item{
     list-style: none;
     // width: 296px;
@@ -12,7 +14,7 @@
     }
     .menu-contacts__link-tel{
     display: inline-block;
-    margin-bottom: 32px;
+    // margin-bottom: 32px;
     text-decoration: none;
     font-weight: 500;
     font-size: 34px;
@@ -24,10 +26,15 @@
 .menu-contacts__link-email{
     display: inline-block;
     text-decoration: none;
-    margin-bottom: 64px;
+    // margin-bottom: 64px;
     font-size: 24px;
     line-height: 28px;
     line-height: 1.16;
     letter-spacing: 0.02em;
     color: var(--secondaryText-color);
+}
+.mobile-menu__contact{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
 }
