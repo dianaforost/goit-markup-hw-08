@@ -5,9 +5,13 @@
         flex-wrap: wrap;
         align-content: space-between;
         gap: 8px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width:350px){
+    .buttons__list{
         width: 326px;
         height: 91px;
-        margin-bottom: 40px;
     }
 }
 @media screen and (min-width:768px) {
