@@ -1,9 +1,9 @@
-.network-container{
-    // margin-top: 12px;
-    // margin-right: 93px;
-    // margin-bottom: 60px;
-    height: 80px;
-}
+// .network__container{
+//     // margin-top: 12px;
+//     // margin-right: 93px;
+//     // margin-bottom: 60px;
+//     height: 80px;
+// }
 
 .footer-network__title{
     margin-bottom: 20px;
@@ -40,7 +40,7 @@
     fill: var(--basic-color);
 }
 @media screen and (min-width:1200px){
-    .network-container{
+    .network__container{
         margin-right: 93px;
         margin-bottom: 0;
         height: 80px;
