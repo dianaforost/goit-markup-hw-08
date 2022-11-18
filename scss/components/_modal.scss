@@ -66,20 +66,22 @@
 // .close-icon:focus{
 //     fill: var(--effect-text-color);
 // }
-.form-group{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    cursor: auto;
-}
-.form__title{
-    margin-bottom: 12px;
+.form{
+    &__title{
+        margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color);
+    }
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    cursor: auto;
 }
 @media screen and (min-width:1200px){
     .modal{
@@ -89,3 +91,12 @@
         line-height: 1.15;
     }
 }
+// .form__title{
+//     margin-bottom: 12px;
+//     font-weight: 700;
+//     font-size: 20px;
+//     line-height: 1.5;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     color: var(--brand-color);
+// }

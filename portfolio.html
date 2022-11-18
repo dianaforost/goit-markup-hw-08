@@ -16,7 +16,7 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <div class="container container__header">
+      <div class="container header__container">
         <a href="./index.html" class="header__logo"><span class="logo__span">Web</span>Studio</a>
         <button class="menu-toggle js-open-menu" >
           <svg width="40" height="40">
@@ -396,6 +396,7 @@
     <!-- END FOOTER -->
     <div class="mobile-menu js-menu-container" id="mobile-menu">
       <div class="menu-container">
+        <div class="mobile-menu__holder">
           <button class="menu-button js-close-menu">
           <svg class="close-button__icon" width="40" height="40">
             <use href="./images/icons.svg#icon-close_40px"></use>
@@ -414,14 +415,17 @@
           </li>
         </ul>
       </nav>
+      <div class="mobile-menu__contact">
         <ul class="mobile-menu__contacts">
           <li class="menu-contacts__item">
-            <a href="tel:+380991111111" class="menu-contacts__link-tel">+38 099 111 11 11</a>
+            <a href="tel:+380991111111" class="menu-contacts__tel">+38 099 111 11 11</a>
           </li>
           <li class="menu-contacts__item">
-            <a href="mailto:info@devstudio.com" class="menu-contacts__link-email">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="menu-contacts__email">info@devstudio.com</a>
           </li>
         </ul>
+      </div>
+      </div>
         <ul class="mobile-menu__network">
           <li class="menu-network__item"> <a class="menu-network__link">Instagram</a> 
             <span class="menu-network__span"></span>

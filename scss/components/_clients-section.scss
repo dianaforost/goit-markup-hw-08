@@ -2,11 +2,10 @@
     @media screen and (min-width:1200px){
         padding: 94px 0;
     }
-
-}
-.clients__list{
-    list-style: none;
+    &__list{
+        list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    }
 }
