@@ -4,6 +4,16 @@
     background-color: var(--background-color);
     text-align: center;
 }
+.address__container,
+.network-container{
+    margin-bottom: 60px;
+}
+@media screen and (min-width:768px){
+    .address__container,
+.network-container{
+    margin-bottom: 0;
+}
+}
 @media screen and (min-width:1200px) {
     .footer{
         text-align: start;

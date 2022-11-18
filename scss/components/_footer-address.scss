@@ -112,6 +112,8 @@
     .footer__container{
         justify-content: space-between;
         align-items: baseline;
+        flex-wrap: nowrap;
+        gap: 0;
     }
     .address__container{
         text-align: start;
