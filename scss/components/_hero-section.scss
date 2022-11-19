@@ -9,6 +9,7 @@
     url(../images/header-img-480x400.jpg);
     background-size: 480px 400px;
     text-align: center;
+    padding: 118px 0;
     // min-width: 320px;
     // background-position: 50% 50%;
     // background-color: var(--background-color);
@@ -16,7 +17,6 @@
 @media screen and (min-width: 480px){
     .hero-section{
         width: 480px;
-        padding: 118px 0;
     }
 }
 @media screen and (min-width:480px) and (min-device-pixel-ratio: 2),

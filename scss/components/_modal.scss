@@ -80,8 +80,11 @@
 .form-group{
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 25px;
     cursor: auto;
+    @media screen and (min-width:480px){
+        padding: 40px;
+    }
 }
 @media screen and (min-width:1200px){
     .modal{
