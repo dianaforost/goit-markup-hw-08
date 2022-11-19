@@ -182,15 +182,17 @@
           <h2 class="section-titles">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img
-              srcset="./images/team-img-450x460.jpg 1x, ./images/team-img-450x460@2x.jpg 2x, ./images/team-img-354x374.jpg 1x, ./images/team-img-354x374@2x.jpg 2x,
-              ./images/team-img-279x260.jpg 1x, ./images/team-img-270x260@2x.jpg 2x"
-              sizes="(min-width:480px) 100vw, (min-width:768px) 50vw, (min-width:1200px) 33vw "
-                src="./images/team-img-450x460.jpg"
-                alt="Працівник"
-                width="270"
-                class="team-item__image"
-              />
+              <picture>
+                <source srcset="./images/team-img-450x460.jpg 1x, ./images/team-img-450x460@2x.jpg 2x" media="(min-width: 480px)">
+                <source srcset="./images/team-img-354x374.jpg 1x, ./images/team-img-354x374@2x.jpg 2x" media="(min-width: 768px)">
+                <source srcset="./images/team-img-279x260.jpg 1x, ./images/team-img-270x260@2x.jpg 2x" media="(min-width: 1200px)">
+                <img
+                  src="./images/team-img-450x460.jpg"
+                  alt="Працівник"
+                  
+                  class="team-item__image"
+                />
+              </picture>
               <h3 class="team-item__title">Ігор Дем'яненко</h3>
               <p class="team-item__text">Product Designer</p>
               <ul class="team-network__list">
@@ -226,16 +228,16 @@
             </li>
 
             <li class="team__item">
-              <img
-              srcset="./images/team-img-450x460-sec.jpg 1x,./images/team-img-450x460@2x-sec.jpg 2x, 
-              ./images/team-img-354x374-sec.jpg 1x,./images/team-img-354x374@2x-sec.jpg 2x, 
-              ./images/team-img-270x260-sec.jpg 1x,./images/team-img-270x260@2x-sec.jpg 2x"
-              sizes="(min-width:480px) 100vw, (min-width:768px) 50vw, (min-width:1200px) 33vw"
-                src="./images/second-employee.jpg"
-                alt="Працівник"
-                width="270"
-                class="team-item__image"
-              />
+              <picture>
+                <source srcset="./images/team-img-450x460-sec.jpg 1x,./images/team-img-450x460@2x-sec.jpg 2x" media="(min-width: 480px)">
+                <source srcset="./images/team-img-354x374-sec.jpg 1x,./images/team-img-354x374@2x-sec.jpg 2x" media="(min-width: 768px)">
+                <source srcset="./images/team-img-270x260-sec.jpg 1x,./images/team-img-270x260@2x-sec.jpg 2x" media="(min-width: 1200px)">
+                <img
+                  src="./images/team-img-450x460@2x-sec.jpg"
+                  alt="Працівник"
+                  class="team-item__image"
+                />
+              </picture>
               <h3 class="team-item__title">Ольга Рєпіна</h3>
               <p class="team-item__text">Frontend Developer</p>
               <ul class="team-network__list">
@@ -270,18 +272,16 @@
               </ul>
             </li>
             <li class="team__item">
-              <img
-              srcset="./images/team-img-450x460-third.jpg 1x,
-              ./images/team-img-450x460@2x-third.jpg 2x,
-              ./images/team-img-354x374-third.jpg 1x,
-              ./images/team-img-354x374@2x-third.jpg 2x,
-              ./images/team-img-270x260-third.jpg 1x,
-              ./images/team-img-270x260@2x-third.jpg 2x,"
-                src="./images/third-employee.jpg"
-                alt="Працівник"
-                width="270"
-                class="team-item__image"
-              />
+              <picture>
+                <source srcset="./images/team-img-450x460-third.jpg 1x,./images/team-img-450x460@2x-third.jpg 2x" media="(min-width: 480px)">
+                <source srcset="./images/team-img-354x374-third.jpg 1x,./images/team-img-354x374@2x-third.jpg 2x" media="(min-width: 768px)">
+                <source srcset="./images/team-img-270x260-third.jpg 1x,./images/team-img-270x260@2x-third.jpg 2x" media="(min-width: 1200px)">
+                <img
+                  src="./images/team-img-450x460-third.jpg"
+                  alt="Працівник"
+                  class="team-item__image"
+                />
+              </picture>
               <h3 class="team-item__title">Микола Тарасов</h3>
               <p class="team-item__text">Marketing</p>
               <ul class="team-network__list">
@@ -316,18 +316,16 @@
               </ul>
             </li>
             <li class="team__item">
-              <img
-              srcset="./images/team-img-450x460-fourth.jpg 1x,
-              ./images/team-img-450x460@2x-fourth.jpg 2x,
-              ./images/team-img-354x374-fourth.jpg 1x,
-              ./images/team-img-354x374@2x-fourth.jpg 2x,
-              ./images/team-img-270x260-fourth.jpg 1x,
-              ./images/team-img-270x260@2x-fourth.jpg 2x"
-                src="./images/fourth-employee.jpg"
-                alt="Працівник"
-                width="270"
-                class="team-item__image"
-              />
+              <picture>
+                <source srcset="./images/team-img-450x460-fourth.jpg 1x, ./images/team-img-450x460@2x-fourth.jpg 2x" media="(min-width: 480px)">
+                <source srcset="./images/team-img-354x374-fourth.jpg 1x, ./images/team-img-354x374@2x-fourth.jpg 2x" media="(min-width: 768px)">
+                <source srcset="./images/team-img-270x260-fourth.jpg 1x, ./images/team-img-270x260@2x-fourth.jpg 2x" media="(min-width: 1200px)">
+                <img
+                  src="./images/team-img-450x460@2x-fourth.jpg"
+                  alt="Працівник"
+                  class="team-item__image"
+                />
+              </picture>
               <h3 class="team-item__title">Михайло Єрмаков</h3>
               <p class="team-item__text">UI Designer</p>
               <ul class="team-network__list">
@@ -499,7 +497,7 @@
     <!-- class="mobile__menu is-hidden js-menu-container"  -->
     <div class="mobile-menu js-menu-container" id="mobile-menu">
       <div class="menu-container">
-        <div class="mobile-menu__holder">
+        <!-- <div class="mobile-menu__holder"> -->
           <button class="menu-button js-close-menu">
           <svg class="close-button__icon" width="40" height="40">
             <use href="./images/icons.svg#icon-close_40px"></use>
@@ -529,7 +527,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    <!-- </div> -->
         <ul class="mobile-menu__network">
           <li class="menu-network__item"> <a href="https://www.instagram.com/" class="menu-network__link">Instagram</a> 
             <span class="menu-network__span"></span>

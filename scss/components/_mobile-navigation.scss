@@ -2,21 +2,13 @@
     &__nav{
         display: flex;
         flex-direction: column;
+        margin-bottom: 60px;
     }
     &__navigation{
         margin-bottom: auto;
         list-style: none;
     }
 }
-// .mobile-menu__nav{
-//     display: flex;
-//     flex-direction: column;
-// }
-// .mobile-menu__navigation{
-//     // margin-bottom: 302px;
-//     margin-bottom: auto;
-//     list-style: none;
-// }
 .menu-navigation{
     &__item{
         width: 139px;

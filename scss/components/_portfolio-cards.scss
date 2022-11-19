@@ -15,6 +15,9 @@
         }
     }
     }
+    &__img{
+        width: 100vw;
+    }
     &__title{
         margin-bottom: 4px;
         font-size: 18px;
@@ -45,10 +48,9 @@
         &__item:not(:last-child){
             margin-bottom: 30px;
         }
-        &__img{
-            width: 450px;
-            height: 294px;
-        }
+        // &__img{
+        //     width: 100%;
+        // }
     }
     .portfolio-cards{
         display: block;
@@ -65,9 +67,9 @@
         &__item:not(:last-child){
             margin-bottom: 0;
         }
-        &__img{
-            width: 354px;
-        }
+        // &__img{
+        //     width: 354px;
+        // }
     }
     // .portfolio-content:first-child{
     //     padding-bottom: 56px;
@@ -78,9 +80,9 @@
         &__item{
             width: 370px;
         }
-        &__img{
-            width: 370px;
-        }
+        // &__img{
+        //     width: 370px;
+        // }
     }
 }
 .thumb{
@@ -108,6 +110,9 @@
         padding: 77px 24px;
         font-size: 18px;
         line-height: 1.5;
+    }
+    @media screen and (min-width:768px){
+        padding: 35px 24px;
     }
 }
 }
